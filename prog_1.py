@@ -4,7 +4,7 @@ from itertools import combinations
    minimum and maximum values as a single line of two space-separated long integers.
 '''
 def get_max_min(arr):
-    #the noob way - Tjr
+    #the noob way 
 
     #listing out the possibilities    
     possibility = combinations(arr,4)
@@ -18,7 +18,7 @@ def get_max_min(arr):
     return max(l),min(l)
 
 def get_max_min_legendary(arr):
-    #legendary way - Devansh
+    #legendary way 
     return sum(arr)-min(arr),sum(arr)-max(arr)
 
 def main():
