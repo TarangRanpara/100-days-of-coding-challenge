@@ -18,7 +18,7 @@ def get_max_min(arr):
     return max(l),min(l)
 
 def get_max_min_legendary(arr):
-    #legendary way 
+    #the legendary way 
     return sum(arr)-min(arr),sum(arr)-max(arr)
 
 def main():
