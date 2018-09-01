@@ -30,3 +30,17 @@ Case 2:
 input : 4
 3,2,1,3
 output : 2
+
+problem-3:
+
+Take one Number from user and print "Positive Number" or "Negative Number" ,
+sounds easy ??
+
+Now adding one more condition you are not allowed to use any Conditional statements like if , if else ,switch, while , for , a ? b 
+
+Now it's Interesting right ??
+Input : 5
+Output : Positive Number 
+
+Input : -6 
+Output : Negative Number
