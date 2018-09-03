@@ -64,3 +64,14 @@ input : 103
 Ouput:
 103 is Not Palindrome Number
 Nearest Palindrome Number is 101 
+
+problem-5:
+
+Problem statement:
+You have been given a String S
+consisting of uppercase and lowercase English alphabets.
+You need to change the case of each alphabet in this String.
+
+Input String : abcdE
+Output string : ABCDe
+
