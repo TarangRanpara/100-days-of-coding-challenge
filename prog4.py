@@ -1,4 +1,5 @@
 def isPalindrome(abc):
+    #Checking if palindrome or not.
     r = ''.join(reversed(abc))
     if r == abc:
         return True
@@ -6,20 +7,21 @@ def isPalindrome(abc):
         return False
 
 def main():
-    x = input()
+    x = input("enter num:")
 
-    i=1
-    diff1 = 0
+    i,diff1 = 1,0
+    #going +1 each time until palindrome is found.
     while isPalindrome(str(int(x)+i)) == False:
         diff1 += 1
         i += 1
     
-    j=1
-    diff2 = 0
+    j,diff2 = 1,0
+    #going -1 each time until palindrome is found.
     while isPalindrome(str(int(x)-j)) == False:
         diff2 += 1
         j += 1    
 
+    #showing the result.
     if isPalindrome(x):
         print(x,' is a Palindrome number')
     else:
