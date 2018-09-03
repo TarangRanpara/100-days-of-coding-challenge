@@ -44,3 +44,23 @@ Output : Positive Number
 
 Input : -6 
 Output : Negative Number
+
+problem-4:
+
+Check given number is palindrome number or not ?
+
+Easy ??
+
+find nearest palindrome number of given number. 
+
+Example 1:
+input : 111
+Output : 
+111 is Palindrome Number 
+Nearest Palindrome Number is 101 (111-101 =>10 and 121-101=>10 so take anyone)
+
+Example 2:
+input : 103
+Ouput:
+103 is Not Palindrome Number
+Nearest Palindrome Number is 101 
