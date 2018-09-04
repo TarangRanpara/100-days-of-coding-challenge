@@ -75,3 +75,18 @@ You need to change the case of each alphabet in this String.
 Input String : abcdE
 Output string : ABCDe
 
+problem-6:
+
+Write a program to check if two given String is Anagram of each other. Your function should return true if two Strings are Anagram, false otherwise. A string is said to be an anagram if it contains same characters and same length but in different order e.g. army and Mary are anagrams. You can ignore cases for this.
+
+Input : 
+1)Number of Strings 
+2)each input contain 2 strings
+Output : True or False 
+
+Example 1:
+Input : 2
+1)
+=>army , mary
+2)
+=>raj , jar
