@@ -90,3 +90,13 @@ Input : 2
 =>army , mary
 2)
 =>raj , jar
+
+problem-7:
+
+Find the first non repeated character from String. Example if given String is "Morning" then it should print "M"
+Input : 1-string 
+output : 1-char
+
+Example :
+Input : Kick
+Output : I
