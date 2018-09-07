@@ -100,3 +100,28 @@ output : 1-char
 Example :
 Input : Kick
 Output : I
+
+problem-8:
+
+Little guru is very fond of playing games. Recently, He found a few straws each of length 1 inches in the store room. He took all of them and decided to mark a rectangular area on the floor with straws and warn rest of the family members to not to enter that area so that he can play in peace. He wants to maximize that area. But, unable to do so, He seeks for your help. You being the elder brother of guru, write a program for him to find maximum area that he can cover in inches using N straws.
+
+Input:
+
+First line of input contains an integer t. 
+
+then, t lines follow each containing a single integer
+
+ N - No of straws.
+
+Output:
+
+Print the area of largest rectangle that can be formed using the given sticks. 
+simple Input :
+3
+6
+9
+11
+Simple Output :
+2
+4
+6
