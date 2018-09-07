@@ -6,13 +6,17 @@ def get_area(n):
         area = None
         
     elif (n % 4 == 0) or (n % 4 == 1):
-        '''area = l * b
-           if one stick remains unused, we can't do anything about it'''
+        '''
+        area = l * b
+        if one stick remains unused, we can't do anything about it.
+        '''
         area = int(n / 4) * int(n / 4)
 
     elif n % 4 > 1:
-        '''remainder will never be greater than 3. 
-           so, one-one stick either on l or b can be used and let one get wasted'''
+        '''
+        remainder will never be greater than 3. 
+        so, one-one stick either on l or b can be used and let one get wasted.
+        '''
         area  = int(n / 4) * ( int(n / 4) + 1)
 
     return area
