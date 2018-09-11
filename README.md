@@ -125,3 +125,63 @@ Simple Output :
 2
 4
 6
+
+problem-9:
+
+Given two weights of X and Y units,
+How many different ways you can achieve a weight of D units using only the given weight.
+Any of the given weights can be used any number of times (including 0 number of times).
+
+Input Format:
+The first line of input consists of an integer T denoting the number of test cases.
+Each test case consists of only one line containing three space separated integers X, Y and D.
+Output Format:
+For each test case, print the answer in a separate line.
+
+Example :
+Sample Input
+4
+2,3,7
+4,10,6
+6,14,0
+2,3,6 
+Output 
+1
+0
+1
+2
+Explanation
+Test case 1:
+D = 7 , X = 2 , Y = 3
+7 can be achieved by using X two times and Y one time [2(2)+3(1)]=>[4+3=7].so answer = 1
+Test case 2:
+D = 6 , X = 4 , Y = 10
+6 can not be achieved by X and Y. so answer 0.
+Test case 3:
+D = 0 , X = 6 , Y = 14
+0 can be achieved by X zero times and Y zero time [6(0)+14(0)]=>[0+0=0].so answer = 1
+Test case 4:
+D = 6 , X =2 , Y = 3
+6 can be achieved by using X three times or Y two times. so answer = 2
+
+problem-10:
+
+Ram purchased an array A having N integer values. After playing it for a while, he got bored of it and decided to update value of its element. In one second he can increase value of each array element by 1. He wants each array element's value to become greater than or equal to K. Please help Ram to find out the minimum amount of time it will take, for him to do so.
+
+Input: 
+First line consists of a single integer, T, denoting the number of test cases. 
+First line of each test case consists of two space separated integers denoting N and K. 
+Second line of each test case consists of N space separated integers denoting the array A.
+
+Output:
+For each test case, print the minimum time in which all array elements will become greater than or equal to K. Print a new line after each test case.
+
+SAMPLE INPUT 
+2
+3 4
+1 2 5
+3 2
+2 5 5
+SAMPLE OUTPUT 
+3
+0
