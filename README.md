@@ -185,3 +185,61 @@ SAMPLE INPUT
 SAMPLE OUTPUT 
 3
 0
+
+problem-11:
+
+Write code to remove the duplicate characters in a string without using any additional buffer. 
+One or two additional variables are fine. An extra copy of the array is not.
+
+Input : one string 
+output : one string  
+
+Input : AXYZYZXB
+
+Output : AXYZB
+
+problem-12:
+
+There is an array with every element repeated twice except one. Find that one element?
+
+Input : Line 1: number of test case 
+           Line 2: case 1: array length 
+           Line 3: array values
+        
+Output : Number of unique value in given array for all test case 
+
+Example :
+
+Input : 
+2
+7
+[1,1,5,5,7,7,8]
+11
+[1,1,2,99,2,3,3,4,4,5,5]
+
+Output :
+8
+99
+
+problem-13:
+
+You have given one array you need to rearrange array in alternating positive and negative number.
+
+Example :
+
+Input : {5,4,9,2,-2,-4,1,-3}
+
+Output : {-2,5,-4,4,-3,9,2,1}
+
+problem-14:
+
+Find the cube of the number by using recursion. 
+
+Input : 2
+Output : 8
+
+problem-15:
+
+
+
+
