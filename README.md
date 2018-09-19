@@ -259,5 +259,33 @@ sadw96aeafae4awdw2wd100awd
 Ouput :
 4
 
+problem-16:
+
+Mighty is afraid of binary array. So he needs your help to complete task.
+
+Task :
+You will have one array consisting of only binary values (0,1). You can change only one bit (0 to 1 or 1 to 0) and this operation can be perform just one time. Using that one change you need to find the maximum values you can get from the array and give position of bit that gives the maximum value.
+
+Example : 
+Total numbers present in array : 3
+1,0,0
+Now you can change one value. 
+so 1,0,1 so it's value = 5.
+(4,2,1) ==> (1,0,1) so (4,0,1) => 5 
+now changing other bit for same example 
+1,1,0 => so it's value = 6
+(4,2,1) ==> (1,1,0) so (4,2,0) => 6
+
+Case 1:
+Input:
+3
+1,0,0
+Output :
+6 , 1 
+Since by changing one bit we get maximum value is 6 and the index of that bit is 
+Values = >1,0,0
+Indexs  => 0,1,2 
+So 1
+
 
 
