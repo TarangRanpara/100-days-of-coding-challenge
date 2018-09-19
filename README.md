@@ -240,6 +240,24 @@ Output : 8
 
 problem-15:
 
+Your task is pretty simple , given a string S , find the total count of numbers present in the string.
+
+Input
+
+The first line contains T , the number of test cases. The first line of each and every testcase will contain a integer N , the length of the string . The second line of each and every test case will contain a string S of length N.
+
+Output
+
+For each and every testcase , output the total count of numbers present in the string.
+
+Example :
+
+Input :
+1
+26
+sadw96aeafae4awdw2wd100awd
+Ouput :
+4
 
 
 
