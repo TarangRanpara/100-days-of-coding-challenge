@@ -1,4 +1,6 @@
 def get_value(l):
+    
+    #logic to convert binary into decimal, although it can be done with built-in function too.
     length,sum = len(l),0
     max_power = length - 1
     
@@ -11,6 +13,7 @@ def get_value(l):
 
 def main():
     n = int(input('enter n:'))
+    #enter 0's & 1's
     l = [int(input()) for i in range(n)]
 
     pos = -1
