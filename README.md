@@ -287,5 +287,25 @@ Values = >1,0,0
 Indexs  => 0,1,2 
 So 1
 
+problem-17:
 
+Find the 2nd largest value from array without sorting the array. ( You can not sort the array)
 
+Input : 
+Number of testcase
+Number of elements present in array
+array elements 
+
+Output :
+2nd largest value from array.
+
+Sample Test Case :
+(Number of testcase) 2
+(For case 1 : Number of elements present in array) : 5
+(For case 1 :array elements ) : 7,8,99,66,5
+(For case 2 : Number of elements present in array) : 7
+(For case 2 :array elements ) : 7,8,99,66,5,101,11
+
+Sample Output :
+66
+99
