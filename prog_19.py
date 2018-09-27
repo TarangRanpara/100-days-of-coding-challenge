@@ -1,6 +1,8 @@
 def main():
+    
     str = input('enter string:')
     max_char,min_char = str[0],str[0]
+    
     for x in str:
         if max_char < x:
             max_char = x
