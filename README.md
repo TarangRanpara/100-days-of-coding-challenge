@@ -309,3 +309,27 @@ Sample Test Case :
 Sample Output :
 66
 99
+
+problem - 18
+
+Write a program to remove characters in String Except Alphabets
+
+Input : Road2Code
+Output : RoadCode
+
+Input : Raj1997Upadhyay007
+Output : RajUpadhyay
+
+problem -19 
+
+Write a program to find the smallest alphabet and largest alphabet from string
+1)
+Input : raj 
+Output : 
+smallest : a
+largest : r
+2)
+Input : Gmail
+Output : smallest : a
+Largest : m
+
