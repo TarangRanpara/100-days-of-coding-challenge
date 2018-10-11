@@ -288,6 +288,7 @@ Indexs  => 0,1,2
 So 1
 
 problem-17:
+day-1
 
 Find the 2nd largest value from array without sorting the array. ( You can not sort the array)
 
@@ -311,6 +312,7 @@ Sample Output :
 99
 
 problem - 18
+day-2
 
 Write a program to remove characters in String Except Alphabets
 
@@ -321,6 +323,7 @@ Input : Raj1997Upadhyay007
 Output : RajUpadhyay
 
 problem -19 
+day-3
 
 Write a program to find the smallest alphabet and largest alphabet from string
 1)
@@ -333,3 +336,162 @@ Input : Gmail
 Output : smallest : a
 Largest : m
 
+problem -20
+day-4
+
+Write a program to find the smallest alphabet and largest alphabet from string
+1)
+Input : raj 
+Output : 
+smallest : a
+largest : r
+2)
+Input : Gmail
+Output : smallest : a
+Largest : m
+
+problem -21
+day-5
+
+Write a program to print first 20 natural numbers using recursion  
+
+output : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+problem -22
+day -6
+
+Write a program to convert specified days into years, weeks and remaining days. (1 year == 365days)
+
+Input : 367
+Output : 
+Years : 1
+weeks : 52
+days : 2
+
+problem -23
+day -7
+
+Rose has a string, s, of lowercase English letters that she repeated infinitely many times.Given an integer, n, find and print the number of letter a's in the first n letters of Rose's infinite string.
+
+For example, if the string s = 'abcac'  and n=10, the sub string we consider is abcacabcac, the first 10 characters of her infinite string. There are  4 occurrences of a in the sub string.
+
+
+
+Input : 
+
+String : abcd
+
+N : 12
+
+Output:
+
+3
+
+Explanations 
+
+s = abcdabcdabcd
+
+so occurrences of a = 3
+
+problem -24
+day -8
+
+Write a program to find the missing number from a given array. There are no duplicates in list
+
+Input : 2,3,5,6,7
+Output : 4
+
+
+problem -25
+day-9
+
+Your task  is to implement the function strfind. The function takes two strings as arguments(s,x) and  locates the occurrence of the string x in the string s. The function returns and integer denoting  the first occurrence of the string x .  
+For each test case in a new line output will be an integer denoting the first occurrence of the target  string in the string s. Return -1 if no match found.
+
+Sample Input :
+2
+WhoIsRaj Rj
+WhoIsRaj Is
+
+Sample Output :
+-1
+3
+
+problem -26
+day -10
+
+On a distant planet far away from Earth lives a boy named Aman.He loves to run everyday.But his running distance is directly affected by how much horlicks his mother mixed in his milk today.If his mother has mixed x grams of horlicks,then Aman will be capable of running 100*x meters at most on that day.
+
+Aman's instructor, Mr.Sharma ,is a very strict yet very caring.Everyday he asks Aman to run around a circle of radius r once.If Aman is able to complete the circle,he would get a toffee.
+
+Note:Take value of pie=22/7.
+
+CONSTRAINTS:
+
+1<=d<105
+
+1<=r<106
+
+1<=x<=104
+
+INPUT:
+
+First line contains d,no. of days Aman goes to his instructor.Next d lines each contain r,radius of circle and x,amount of horlicks.
+
+OUTPUT:
+
+Print total number of toffees Aman would finally have at the end of d days.
+
+
+
+Sample Input :
+
+3
+3 2
+5 2
+1 2
+Output : 
+3
+
+problem -27
+day -11
+
+Day 11,
+
+The first line of input contains ,t the number of test cases.
+
+Each test case consists of two lines.
+
+The first line has two space-separated integers, n and k, the number of students (size of a) and the cancellation threshold. 
+The second line contains  space-separated integers (a[1],a[2],a[3]....) describing the arrival times for each student.  
+
+Non-positive arrival times (a[i]<=0) indicate the student arrived early or on time; positive arrival times (a[i]>=0) indicate the student arrived a[i] minutes late.  
+
+Sample Input
+
+2
+
+4 3
+
+-1 -3 4 2
+
+4 2
+
+
+-2 -1 2 1
+
+Sample Output
+
+YES
+
+NO
+
+
+
+Explanation
+
+For the first test case,
+
+k = 3 .
+
+The professor wants at least 3 students in attendance, but only 2 have arrived on time ( -3 and -1) so the class is cancelled.
