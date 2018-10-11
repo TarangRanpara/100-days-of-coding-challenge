@@ -442,8 +442,6 @@ OUTPUT:
 
 Print total number of toffees Aman would finally have at the end of d days.
 
-
-
 Sample Input :
 
 3
@@ -455,8 +453,6 @@ Output :
 
 problem -27
 day -11
-
-Day 11,
 
 The first line of input contains ,t the number of test cases.
 
