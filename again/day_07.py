@@ -1,8 +1,8 @@
 def main():
     s,n= input('enter string:'),int(input('enter n:'))
 
-    if n < len(s):
-        print(s.count('a'))
+    if n <= len(s):
+        print(s[:n].count('a'))
 
     else:
         repeat = int(n/len(s))
